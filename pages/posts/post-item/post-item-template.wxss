@@ -1,0 +1,66 @@
+.poster-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20rpx;
+    margin-bottom: 20rpx;
+    background-color: #fff;
+    border-bottom: 1px solid #ededed;
+    border-top: 1px solid #ededed;
+    padding-bottom: 5px;
+}
+
+.poster-author-date{
+    margin: 10rpx 0 20rpx 10rpx;
+}
+.poster-author{
+    width: 60rpx;
+    height: 60rpx;
+    vertical-align: middle;
+}
+.poster-date{
+    margin-left: 20rpx;
+    vertical-align: middle;
+    margin-bottom: 5px;
+    font-size: 26rpx;
+}
+
+.poster-title{
+    font-size: 34rpx;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.poster-img{
+    width: 100%;
+    height: 360rpx;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+.poster-content{
+    color: #666;
+    font-size: 29rpx;
+    margin-bottom: 20rpx;
+    letter-spacing: 2rpx;
+    line-height: 40rpx;
+    padding:20rpx;
+}
+
+.poster-chat-view{
+    font-size: 13px;
+    flex-direction: row;
+    line-height: 16px;
+    margin-left: 10px;
+}
+.poster-like{
+    height: 16px;
+    width: 16px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+.poster-num{
+    vertical-align: middle;
+    margin-right: 20px;
+
+}
